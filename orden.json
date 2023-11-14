@@ -1,0 +1,57 @@
+{
+  "Tablas": {
+    "Clientes": {
+      "campo": {
+        "Correo": "anthonycastro1@gmail.com",
+        "Nombre": "Anthony",
+        "direccion": "Chamelco",
+        "idcliente": "",
+        "telefono": 32802222
+      }
+    },
+    "Detalleorden": {
+      "campo": {
+        "cantidad": 123,
+        "iddetalleorden": 1,
+        "idorden": 1,
+        "idproducto": 1,
+        "preciouni": 43
+      }
+    },
+    "Facturas": {
+      "campo": {
+        "fecha": "12/32/2001",
+        "idfactura": 1,
+        "idorden": 1,
+        "total": 345
+      }
+    },
+    "Productos": {
+      "campo": {
+        "descripcion": "pesado",
+        "idproducto": 1,
+        "nombre": "albaro",
+        "precio": 23,
+        "stock": 345
+      }
+    },
+    "Proveedor": {
+      "campo": {
+        "idproveedor": {
+          "Correo": "carla12@gmail.com",
+          "Direccion": "Coban",
+          "Nombre": "Carla",
+          "Telefono": 45321345
+        }
+      }
+    },
+    "ordenes": {
+      "campo": {
+        "fecha": "14/23/2003",
+        "idcliente": 1,
+        "idorden": 1,
+        "total": 234
+      }
+    }
+  }
+}
